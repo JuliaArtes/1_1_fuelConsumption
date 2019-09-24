@@ -6,6 +6,6 @@ public class Main {
         float fuelConsumptionAtADist = 145.8f;
         float fuelAvailable = 125.9f;
         int allowableDistanceKm = (int) (distanceKm * fuelConsumptionAtADist / fuelAvailable);
-        System.out.println(allowableDistanceKm+"км");
+        System.out.println(allowableDistanceKm+" км");
     }
 }
